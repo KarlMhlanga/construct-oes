@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio home with post featured images
- * Slug: twentytwentyfour/page-home-portfolio
- * Categories: twentytwentyfour_page
+ * Slug: construct-oes/page-home-portfolio
+ * Categories: construct-oes_page
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -11,5 +11,5 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"twentytwentyfour/hidden-portfolio-hero"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/posts-images-only-offset-4-col"} /-->
+<!-- wp:pattern {"slug":"construct-oes/hidden-portfolio-hero"} /-->
+<!-- wp:pattern {"slug":"construct-oes/posts-images-only-offset-4-col"} /-->

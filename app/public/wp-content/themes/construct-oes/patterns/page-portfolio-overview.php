@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio project overview
- * Slug: twentytwentyfour/page-portfolio-overview
- * Categories: twentytwentyfour_page, featured
+ * Slug: construct-oes/page-portfolio-overview
+ * Categories: construct-oes_page, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -11,8 +11,8 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"twentytwentyfour/banner-project-description"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/text-project-details"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/gallery-full-screen-image"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/text-centered-statement"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/gallery-project-layout"} /-->
+<!-- wp:pattern {"slug":"construct-oes/banner-project-description"} /-->
+<!-- wp:pattern {"slug":"construct-oes/text-project-details"} /-->
+<!-- wp:pattern {"slug":"construct-oes/gallery-full-screen-image"} /-->
+<!-- wp:pattern {"slug":"construct-oes/text-centered-statement"} /-->
+<!-- wp:pattern {"slug":"construct-oes/gallery-project-layout"} /-->

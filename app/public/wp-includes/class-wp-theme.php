@@ -46,39 +46,12 @@ final class WP_Theme implements ArrayAccess {
 
 	/**
 	 * Default themes.
-	 *
-	 * @since 3.4.0
-	 * @since 3.5.0 Added the Twenty Twelve theme.
-	 * @since 3.6.0 Added the Twenty Thirteen theme.
-	 * @since 3.8.0 Added the Twenty Fourteen theme.
-	 * @since 4.1.0 Added the Twenty Fifteen theme.
-	 * @since 4.4.0 Added the Twenty Sixteen theme.
-	 * @since 4.7.0 Added the Twenty Seventeen theme.
-	 * @since 5.0.0 Added the Twenty Nineteen theme.
-	 * @since 5.3.0 Added the Twenty Twenty theme.
-	 * @since 5.6.0 Added the Twenty Twenty-One theme.
-	 * @since 5.9.0 Added the Twenty Twenty-Two theme.
-	 * @since 6.1.0 Added the Twenty Twenty-Three theme.
-	 * @since 6.4.0 Added the Twenty Twenty-Four theme.
+	 
+	 * @since 6.4.0 Added the Construct-OES theme.
 	 * @var string[]
 	 */
 	private static $default_themes = array(
-		'classic'           => 'WordPress Classic',
-		'default'           => 'WordPress Default',
-		'twentyten'         => 'Twenty Ten',
-		'twentyeleven'      => 'Twenty Eleven',
-		'twentytwelve'      => 'Twenty Twelve',
-		'twentythirteen'    => 'Twenty Thirteen',
-		'twentyfourteen'    => 'Twenty Fourteen',
-		'twentyfifteen'     => 'Twenty Fifteen',
-		'twentysixteen'     => 'Twenty Sixteen',
-		'twentyseventeen'   => 'Twenty Seventeen',
-		'twentynineteen'    => 'Twenty Nineteen',
-		'twentytwenty'      => 'Twenty Twenty',
-		'twentytwentyone'   => 'Twenty Twenty-One',
-		'twentytwentytwo'   => 'Twenty Twenty-Two',
-		'twentytwentythree' => 'Twenty Twenty-Three',
-		'twentytwentyfour'  => 'Twenty Twenty-Four',
+		'construct-oes'  => 'Construct-OES',
 	);
 
 	/**

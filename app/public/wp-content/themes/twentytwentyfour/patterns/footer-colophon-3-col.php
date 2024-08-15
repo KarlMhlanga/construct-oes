@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with colophon, 3 columns
- * Slug: twentytwentyfour/footer-colophon-3-col
+ * Slug: construct-oes/footer-colophon-3-col
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: A footer section with a colophon and 3 columns.
@@ -27,7 +27,7 @@
 			<!-- wp:column {"width":"57%"} -->
 			<div class="wp-block-column" style="flex-basis:57%">
 				<!-- wp:heading {"fontSize":"x-large"} -->
-				<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Keep up, get in touch.', 'twentytwentyfour' ); ?></h2>
+				<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Keep up, get in touch.', 'construct-oes' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -36,10 +36,10 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":3,"fontSize":"medium","fontFamily":"body"} -->
-					<h3 class="wp-block-heading has-body-font-family has-medium-font-size"><?php esc_html_e( 'Contact', 'twentytwentyfour' ); ?></h3>
+					<h3 class="wp-block-heading has-body-font-family has-medium-font-size"><?php esc_html_e( 'Contact', 'construct-oes' ); ?></h3>
 					<!-- /wp:heading -->
 					<!-- wp:paragraph -->
-					<p><a href="#"><?php echo esc_html_x( 'info@example.com', 'Example email in site footer', 'twentytwentyfour' ); ?></a></p>
+					<p><a href="#"><?php echo esc_html_x( 'info@example.com', 'Example email in site footer', 'construct-oes' ); ?></a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -54,10 +54,10 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 						<div class="wp-block-group">
 							<!-- wp:heading {"level":3,"fontSize":"medium","fontFamily":"body"} -->
-							<h3 class="wp-block-heading has-body-font-family has-medium-font-size"><?php esc_html_e( 'Follow', 'twentytwentyfour' ); ?></h3>
+							<h3 class="wp-block-heading has-body-font-family has-medium-font-size"><?php esc_html_e( 'Follow', 'construct-oes' ); ?></h3>
 							<!-- /wp:heading -->
 							<!-- wp:paragraph -->
-							<p><a href="#"><?php esc_html_e( 'Instagram', 'twentytwentyfour' ); ?></a> / <a href="#"><?php esc_html_e( 'Facebook', 'twentytwentyfour' ); ?></a></p>
+							<p><a href="#"><?php esc_html_e( 'Instagram', 'construct-oes' ); ?></a> / <a href="#"><?php esc_html_e( 'Facebook', 'construct-oes' ); ?></a></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -79,7 +79,7 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php esc_html_e( '&copy;', 'twentytwentyfour' ); ?></p>
+				<p class="has-small-font-size"><?php esc_html_e( '&copy;', 'construct-oes' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
 			</div>
@@ -88,10 +88,10 @@
 			<p class="has-small-font-size">
 				<?php
 				/* Translators: WordPress link. */
-				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">WordPress</a>';
+				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'construct-oes' ) ) . '" rel="nofollow">WordPress</a>';
 				echo sprintf(
 					/* Translators: Designed with WordPress */
-					esc_html__( 'Designed with %1$s', 'twentytwentyfour' ),
+					esc_html__( 'Designed with %1$s', 'construct-oes' ),
 					$wordpress_link
 				);
 				?>
